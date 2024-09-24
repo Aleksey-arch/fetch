@@ -1,0 +1,82 @@
+@font-face {
+	font-family: Roboto;
+	src: url("fonts/Roboto/Roboto-Regular.ttf");
+}
+
+body {
+	background-color: #C4C4C4;
+}
+
+.dropdown {
+	margin: 62px 84px 0px 77px;
+	width: 500px;
+	font-family: Roboto;
+	font-weight: normal;
+	font-style: normal;
+	color: #000;
+	box-sizing: border-box;
+}
+
+.dropdown-container {
+	display: flex;
+	flex-direction: column;
+	min-height: 326px;
+}
+
+.dropdown input {
+	border: none;
+	font-size: 48px;
+	line-height: 56px;
+	width: 100%;
+	background-color: #FFFFFF;
+	box-sizing: border-box;
+}
+
+.dropdown-content {
+	width: 100%;
+	border: 2px solid #000;
+	box-sizing: border-box;
+	cursor: pointer;
+	font-size: 30px;
+	line-height: 35px;
+	background-color: #E3E3E3;
+}
+
+.chosen {
+	font-size: 24px;
+	padding: 8px 16px;
+	display: flex;
+	line-height: 28px;
+	text-align: left;
+	vertical-align: middle;
+	border: 1px solid #000;
+	background-color: #E27BEB;
+}
+
+.dropdown-content:hover {
+	background-color: #65CDF9;
+	cursor: pointer;
+}
+
+.favorites {
+	display: flex;
+	flex-direction: column;
+	top: 326px;
+	width: 503px;
+}
+
+.btn-close {
+	margin-left: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+	background-repeat: no-repeat;
+	background-image: url("img/Cross.png");
+	background-color: transparent;
+	background-size: contain;
+	outline: none;
+	border: none;
+	cursor: pointer;
+	width: 42px;
+	height: 38.5px;
+	right: 17px;
+}
